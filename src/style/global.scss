@@ -1,0 +1,17 @@
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+// This selector is used in the root div of all pages in the app
+body {
+  background: #282C33;
+}
+
+html {
+  font-size: 10px; /* Đặt 1rem = 10px */
+}
+.max-width {
+  max-width: 1024px;
+  margin: 0 auto;
+}
