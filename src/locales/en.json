@@ -4,5 +4,15 @@
     "works": "works",
     "about-me": "about-me",
     "contacts": "contacts"
+  },
+  "home": {
+    "quickInfo": {
+      "title": "Hi, I'm ",
+      "title2": "and I'm a front-end developer",
+      "intro": "I help designers, small agencies, and businesses turn their ideas into reality. Fueled by Figma,Photoshop, Webstorm, and JavaScript, I craft high-quality, responsive websites that are both CMS-optimized and ecommerce-ready—delivered on time and within budget.",
+      "button": "Contact me",
+      "works": "Currently working on"
+    },
+    "quote": "Designing for the user first, code for the functionality next."
   }
 }

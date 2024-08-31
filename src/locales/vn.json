@@ -4,5 +4,15 @@
     "works": "dự án",
     "about-me": "thông tin",
     "contacts": "liên hệ"
+  },
+  "home": {
+    "quickInfo": {
+      "title": "Chào, tôi là ",
+      "title2": "và tôi là một lập trình viên front-end",
+      "intro": "Tôi giúp các nhà thiết kế, các agency nhỏ và doanh nghiệp biến ý tưởng của họ thành hiện thực. Với sự hỗ trợ từ Figma, Photoshop, Webstorm, và JavaScript, tôi tạo ra các trang web chất lượng cao, đáp ứng và tối ưu hóa CMS cũng như ecommerce—được giao đúng thời hạn và trong ngân sách.",
+      "button": "Liên hệ",
+      "works": "Bây giờ tôi đang làm việc tại"
+    },
+    "quote": "Thiết kế người dùng trước, mã code cho chức năng sau."
   }
 }

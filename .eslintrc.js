@@ -19,6 +19,8 @@ module.exports = {
     "import/no-absolute-path": "off",
     "import/no-extraneous-dependencies": "off",
     "vue/no-multiple-template-root": "off",
+    "vue/require-name-property": "off",
+    camelcase: ["error", { properties: "always" }],
     "no-param-reassign": [
       "error",
       {

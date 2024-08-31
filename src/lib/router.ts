@@ -21,7 +21,7 @@ const router: Router = createRouter({
 });
 
 router.afterEach((to) => {
-  const baseTitle = "Vawntan Portfolio";
+  const baseTitle = "VAWNTAN";
 
   if (to.name === "home") {
     document.title = baseTitle;
