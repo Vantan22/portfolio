@@ -25,7 +25,9 @@
 </script>
 <style lang="scss" scoped>
   .heading {
-    @include gap-x(2px);
+    display: flex;
+    align-items: center;
+    column-gap: 2px !important;
 
     span {
       font-style: normal;

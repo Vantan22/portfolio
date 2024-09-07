@@ -2,12 +2,17 @@
   <quick-info />
   <quote />
   <projects />
+  <space />
+  <skills />
+  <space />
 </template>
 
 <script lang="ts" setup>
   import QuickInfo from "@/components/home/QuickInfo.vue";
   import Quote from "@/components/home/Quote.vue";
   import Projects from "@/components/home/projects.vue";
+  import Skills from "@/components/home/Skills.vue";
+  import Space from "@/components/common/Space.vue";
 </script>
 
 <style lang="scss" scoped>
@@ -31,6 +36,18 @@
 
     button {
       margin: 0 5px;
+    }
+  }
+</style>
+<style lang="scss">
+  .heading {
+    @include gap-x(20px);
+    align-items: center;
+
+    .line {
+      width: 500px;
+      height: 1px;
+      background: $main;
     }
   }
 </style>

@@ -59,17 +59,6 @@
         align-items: center;
         margin-bottom: 48px;
 
-        .heading {
-          @include gap-x(20px);
-          align-items: center;
-
-          .line {
-            width: 500px;
-            height: 1px;
-            background: $gray;
-          }
-        }
-
         a {
           @include center;
           gap: 4px;

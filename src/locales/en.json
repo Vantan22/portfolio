@@ -13,6 +13,15 @@
       "button": "Contact me",
       "works": "Currently working on"
     },
-    "quote": "Designing for the user first, code for the functionality next."
+    "quote": "Designing for the user first, code for the functionality next.",
+    "projects":{
+      "title": "projects",
+      "button": {
+        "view-more": "View all",
+        "primary": "Website",
+        "Github": "Github"
+      }
+    },
+    "skills": "Skills"
   }
 }

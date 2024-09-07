@@ -13,6 +13,15 @@
       "button": "Liên hệ",
       "works": "Bây giờ tôi đang làm việc tại"
     },
-    "quote": "Thiết kế người dùng trước, mã code cho chức năng sau."
+    "quote": "Thiết kế người dùng trước, mã code cho chức năng sau.",
+    "projects":{
+      "title": "các dự án",
+      "button": {
+        "view-more": "Xem thêm",
+        "primary": "Website",
+        "Github": "Github"
+      }
+    },
+    "skills": "Kỹ năng"
   }
 }
