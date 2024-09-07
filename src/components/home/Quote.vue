@@ -28,7 +28,7 @@
     width: 100%;
     height: 246px;
     @include center;
-    padding: 75px 0;
+    padding-bottom: 75px;
     overflow: hidden;
 
     .text {

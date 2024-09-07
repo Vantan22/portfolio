@@ -1,11 +1,13 @@
 <template>
   <quick-info />
   <quote />
+  <projects />
 </template>
 
 <script lang="ts" setup>
   import QuickInfo from "@/components/home/QuickInfo.vue";
   import Quote from "@/components/home/Quote.vue";
+  import Projects from "@/components/home/projects.vue";
 </script>
 
 <style lang="scss" scoped>

@@ -18,6 +18,7 @@
       <router-link to="/contact">{{ $t("home.quickInfo.button") }}</router-link>
     </div>
     <div class="image">
+      <img src="@/assets/img-profile.png" alt="" />
       <div class="work">
         <div class="work__check"></div>
         <div class="work__description">{{ $t("home.quickInfo.works") }} <span>Simple Task Project</span></div>
@@ -30,7 +31,6 @@
   .quick-info {
     max-width: 1024px;
     margin: 120px auto 80px auto;
-    height: 400px;
     @include gap-x(14px);
 
     .content {
@@ -77,19 +77,19 @@
     .image {
       position: relative;
       width: 40%;
-      background-image: url("@/assets/img-profile.png");
-      background-size: cover;
+      img {
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: -3px;
+      }
       .work {
-        position: absolute;
-        bottom: -36px;
-        left: 50%;
-        transform: translateX(-50%);
         display: flex;
         width: max-content;
         padding: 8px;
         align-items: center;
         gap: 10px;
         border: 1px solid $gray;
+
         &__check {
           width: 16px;
           height: 16px;
