@@ -42,6 +42,7 @@
     padding: 8px 16px;
     align-items: flex-start;
     gap: 10px;
+    max-width: max-content;
     color: $secondary;
     border: 1px solid $main;
     background: none;

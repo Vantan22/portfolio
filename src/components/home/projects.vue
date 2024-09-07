@@ -20,7 +20,7 @@
     <div class="wrapper">
       <div class="header">
         <div class="heading">
-          <heading :title="$t('home.projects.title')" size="large" />
+          <heading :title="$t('home.projects.heading')" size="large" />
           <div class="line"></div>
         </div>
         <router-link to="/projects"
@@ -57,7 +57,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 48px;
 
         a {
           @include center;

@@ -15,13 +15,19 @@
     },
     "quote": "Thiết kế người dùng trước, mã code cho chức năng sau.",
     "projects":{
-      "title": "các dự án",
+      "heading": "các dự án",
       "button": {
         "view-more": "Xem thêm",
         "primary": "Website",
         "Github": "Github"
       }
     },
-    "skills": "Kỹ năng"
+    "skills": "Kỹ năng",
+    "about-me": {
+      "heading": "Về Tôi",
+      "name": "Xin Chào, tôi là Charlie Nguyen",
+      "description": "Tôi có một năm rưỡi kinh nghiệm phát triển với React.js và Vue.js, cùng với chuyên môn về HTML, CSS và JavaScript. Kỹ năng của tôi còn bao gồm các phương pháp Agile Scrum, và tôi được công nhận về tư duy sáng tạo cũng như khả năng đưa ra các ý tưởng mới cho tính năng sản phẩm. Tôi nổi bật trong giao tiếp và làm việc nhóm, trở thành một thành viên có giá trị cho các dự án sáng tạo, nơi tôi có thể cải thiện cả chức năng sản phẩm lẫn sự hợp tác của đội nhóm.",
+      "button": "Xem thêm"
+    }
   }
 }

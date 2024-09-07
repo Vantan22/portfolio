@@ -1,8 +1,10 @@
 <script lang="ts">
   import { defineComponent } from "vue";
+  import VtButton from "@/components/common/VTButton.vue";
 
   export default defineComponent({
-    name: "quick-info"
+    name: "quick-info",
+    components: { VtButton }
   });
 </script>
 
@@ -10,12 +12,12 @@
   <section id="quick-info" class="quick-info">
     <div class="content">
       <div class="content__title">
-        {{ $t("home.quickInfo.title") }}<span>Vawntan</span> {{ $t("home.quickInfo.title2") }}
+        {{ $t("home.quickInfo.title") }}<span>Charlie Nguyen</span> {{ $t("home.quickInfo.title2") }}
       </div>
       <div class="content__description">
         {{ $t("home.quickInfo.intro") }}
       </div>
-      <router-link to="/contact">{{ $t("home.quickInfo.button") }}</router-link>
+      <vt-button :name="$t('home.quickInfo.button')" to="/contact" />
     </div>
     <div class="image">
       <img src="@/assets/img-profile.png" alt="" />
@@ -77,11 +79,13 @@
     .image {
       position: relative;
       width: 40%;
+
       img {
         width: 100%;
         object-fit: cover;
         margin-bottom: -3px;
       }
+
       .work {
         display: flex;
         width: max-content;
@@ -96,12 +100,14 @@
           border: 1px solid $main;
           background: $main;
         }
+
         &__description {
           font-size: 1.6rem;
           font-style: normal;
           font-weight: 600;
           line-height: normal;
           color: $gray;
+
           span {
             color: $secondary;
           }

@@ -18,7 +18,7 @@
 <template>
   <section class="skills">
     <div class="heading">
-      <heading :title="$t('home.projects.title')" size="large" />
+      <heading :title="$t('home.skills')" size="large" />
       <div class="line"></div>
     </div>
     <div class="content">
@@ -43,7 +43,6 @@
 
     .content {
       display: flex;
-      padding-top: 20px;
     }
 
     .symbols {

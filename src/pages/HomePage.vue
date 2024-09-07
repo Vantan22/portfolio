@@ -5,6 +5,8 @@
   <space />
   <skills />
   <space />
+  <about-me />
+  <space />
 </template>
 
 <script lang="ts" setup>
@@ -13,6 +15,7 @@
   import Projects from "@/components/home/projects.vue";
   import Skills from "@/components/home/Skills.vue";
   import Space from "@/components/common/Space.vue";
+  import AboutMe from "@/components/home/AboutMe.vue";
 </script>
 
 <style lang="scss" scoped>
@@ -43,6 +46,7 @@
   .heading {
     @include gap-x(20px);
     align-items: center;
+    padding-bottom: 20px;
 
     .line {
       width: 500px;

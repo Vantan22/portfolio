@@ -15,13 +15,19 @@
     },
     "quote": "Designing for the user first, code for the functionality next.",
     "projects":{
-      "title": "projects",
+      "heading": "projects",
       "button": {
         "view-more": "View all",
         "primary": "Website",
         "Github": "Github"
       }
     },
-    "skills": "Skills"
+    "skills": "Skills",
+    "about-me": {
+      "heading": "About me",
+      "name": "Hello, i'm Charlie Nguyen",
+      "description": "I bring one and a half years of experience in React.js and Vue.js development, along with expertise in HTML, CSS, and JavaScript. My skill set extends to Agile Scrum methodologies, and I'm recognized for my creative thinking and ability to generate fresh ideas for new features. I excel in communication and teamwork, making me a valuable asset for innovative projects, where I can enhance both product functionality and team collaboration.",
+      "button": "Read more"
+    }
   }
 }
