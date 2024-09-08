@@ -1,5 +1,5 @@
 <template>
-  <div class="about-me">
+  <section id="about-me" class="about-me">
     <div class="wrapper">
       <div class="heading">
         <heading :title="$t('home.about-me.heading')" size="large" />
@@ -16,17 +16,20 @@
     </div>
     <div class="symbol-1"></div>
     <div class="symbol-2"></div>
-  </div>
+  </section>
+  <space />
 </template>
 
 <script lang="ts">
   import { defineComponent } from "vue";
   import Heading from "@/components/Heading.vue";
   import VtButton from "@/components/common/VTButton.vue";
+  import Contacts from "@/components/home/Contacts.vue";
+  import Space from "@/components/common/Space.vue";
 
   export default defineComponent({
     name: "about-me",
-    components: { VtButton, Heading }
+    components: { Space, Contacts, VtButton, Heading }
   });
 </script>
 <style scoped lang="scss">

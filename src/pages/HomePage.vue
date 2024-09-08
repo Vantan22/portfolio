@@ -2,11 +2,9 @@
   <quick-info />
   <quote />
   <projects />
-  <space />
   <skills />
-  <space />
   <about-me />
-  <space />
+  <contacts />
 </template>
 
 <script lang="ts" setup>
@@ -14,8 +12,8 @@
   import Quote from "@/components/home/Quote.vue";
   import Projects from "@/components/home/projects.vue";
   import Skills from "@/components/home/Skills.vue";
-  import Space from "@/components/common/Space.vue";
   import AboutMe from "@/components/home/AboutMe.vue";
+  import Contacts from "@/components/home/Contacts.vue";
 </script>
 
 <style lang="scss" scoped>

@@ -3,10 +3,11 @@
   import Heading from "@/components/Heading.vue";
   import ProjectCard from "@/components/ProjectCard.vue";
   import projectThumbnail from "@/assets/project_1demo.png";
+  import Space from "@/components/common/Space.vue";
 
   export default defineComponent({
     name: "projects",
-    components: { ProjectCard, Heading },
+    components: { Space, ProjectCard, Heading },
     data() {
       return {
         projectThumbnail
@@ -42,6 +43,7 @@
     <div class="left"></div>
     <div class="right"></div>
   </section>
+  <space />
 </template>
 
 <style scoped lang="scss">

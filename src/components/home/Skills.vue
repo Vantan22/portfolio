@@ -3,10 +3,11 @@
   import SkillCard from "@/components/SkillCard.vue";
   import skillsData from "@/utils/skills-data";
   import Heading from "@/components/Heading.vue";
+  import Space from "@/components/common/Space.vue";
 
   export default defineComponent({
     name: "skills",
-    components: { Heading, SkillCard },
+    components: { Space, Heading, SkillCard },
     data() {
       return {
         skillsData
@@ -34,6 +35,7 @@
       </div>
     </div>
   </section>
+  <space />
 </template>
 
 <style scoped lang="scss">
