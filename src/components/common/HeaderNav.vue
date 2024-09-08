@@ -21,9 +21,9 @@
   </header>
 </template>
 <script setup lang="ts">
-  import Heading from "@/components/Heading.vue";
-  import Dropdown from "@/components/Dropdown.vue";
-  import {useI18n} from 'vue-i18n';
+  import Heading from "@/components/common/Heading.vue";
+  import Dropdown from "@/components/common/Dropdown.vue";
+  import { useI18n } from "vue-i18n";
   const { locale } = useI18n();
   const selectLanguage = (lang: string) => {
     locale.value = lang;

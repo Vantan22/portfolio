@@ -30,7 +30,7 @@
         if (this.to) {
           this.$router.push(this.to);
         }
-        this.$emit("Clicked");
+        this.$emit("clicked");
       }
     }
   });

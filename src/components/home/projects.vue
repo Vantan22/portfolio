@@ -1,7 +1,7 @@
 <script lang="ts">
   import { defineComponent } from "vue";
-  import Heading from "@/components/Heading.vue";
-  import ProjectCard from "@/components/ProjectCard.vue";
+  import Heading from "@/components/common/Heading.vue";
+  import ProjectCard from "@/components/common/ProjectCard.vue";
   import projectThumbnail from "@/assets/project_1demo.png";
   import Space from "@/components/common/Space.vue";
 

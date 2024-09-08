@@ -16,7 +16,7 @@
       <i class="fa-brands fa-facebook"></i>
     </router-link>
     <router-link to="https://www.instagram.com/Vantan22">
-      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
     </router-link>
     <router-link to="https://www.tiktok.com/@officialvantan">
       <i class="fa-brands fa-tiktok"></i>
@@ -34,6 +34,7 @@
     position: fixed;
     top: 0;
     left: 2%;
+    z-index: 3;
 
     .line {
       height: calc(100vh / 8);
@@ -44,6 +45,9 @@
     i {
       font-size: 30px;
       color: $gray;
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 </style>

@@ -15,3 +15,21 @@ html {
   max-width: 1024px;
   margin: 0 auto;
 }
+
+/* Tùy chỉnh thanh cuộn dọc */
+::-webkit-scrollbar {
+  width: 6px; /* Chiều rộng của thanh cuộn dọc */
+}
+
+::-webkit-scrollbar-track {
+  background: #282C33; /* Màu nền của track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #42b883; /* Màu của phần cuộn */
+  border-radius: 5px; /* Bo góc cho phần cuộn */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #55b088; /* Màu khi hover qua phần cuộn */
+}

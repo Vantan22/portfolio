@@ -1,12 +1,22 @@
 <script lang="ts">
   import { defineComponent } from "vue";
-  import Heading from "@/components/Heading.vue";
+  import Heading from "@/components/common/Heading.vue";
   import VtButton from "@/components/common/VTButton.vue";
   import Space from "@/components/common/Space.vue";
 
   export default defineComponent({
     name: "contacts",
-    components: { Space, VtButton, Heading }
+    components: { Space, VtButton, Heading },
+    methods: {
+      downloadFile() {
+        // Tạo một liên kết ẩn
+        const link = document.createElement("a");
+        link.href = "/CV_TanNV.docx"; // Đường dẫn đến tệp Word
+        link.download = "CV_NGUYEN_VAN_TAN_VUE_REACT.docx"; // Tên tệp khi tải xuống
+        // Kích hoạt sự kiện click để tải tệp xuống
+        link.click();
+      }
+    }
   });
 </script>
 
@@ -22,7 +32,7 @@
           <div class="content__info__description">
             {{ $t("home.contacts.description") }}
           </div>
-          <vt-button :name="$t('home.contacts.button')" />
+          <vt-button :name="$t('home.contacts.button')" @clicked="downloadFile" />
         </div>
         <div class="content__card">
           <h2>Message Me</h2>

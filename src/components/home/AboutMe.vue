@@ -22,7 +22,7 @@
 
 <script lang="ts">
   import { defineComponent } from "vue";
-  import Heading from "@/components/Heading.vue";
+  import Heading from "@/components/common/Heading.vue";
   import VtButton from "@/components/common/VTButton.vue";
   import Contacts from "@/components/home/Contacts.vue";
   import Space from "@/components/common/Space.vue";

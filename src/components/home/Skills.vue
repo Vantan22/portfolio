@@ -1,8 +1,8 @@
 <script lang="ts">
   import { defineComponent } from "vue";
-  import SkillCard from "@/components/SkillCard.vue";
+  import SkillCard from "@/components/common/SkillCard.vue";
   import skillsData from "@/utils/skills-data";
-  import Heading from "@/components/Heading.vue";
+  import Heading from "@/components/common/Heading.vue";
   import Space from "@/components/common/Space.vue";
 
   export default defineComponent({
