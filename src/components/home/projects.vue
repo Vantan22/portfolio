@@ -4,20 +4,22 @@
   import ProjectCard from "@/components/common/ProjectCard.vue";
   import projectThumbnail from "@/assets/project_1demo.png";
   import Space from "@/components/common/Space.vue";
+  import projectsData from "@/utils/projects-data";
 
   export default defineComponent({
     name: "projects",
     components: { Space, ProjectCard, Heading },
     data() {
       return {
-        projectThumbnail
+        projectThumbnail,
+        projectsData
       };
     }
   });
 </script>
 
 <template>
-  <section class="projects">
+  <section id="projects" class="projects">
     <div class="wrapper">
       <div class="header">
         <div class="heading">
@@ -31,12 +33,12 @@
       </div>
       <div class="content">
         <project-card
-          v-for="i in 3"
-          :key="i"
-          :thumbnail="projectThumbnail"
-          description="Minecraft servers hosting and management."
-          name="Minecraft Server Manager"
-          :tech-stack="['SCSS', 'Vue3', 'TypeScript', 'Vite', 'SCSS', 'Vue3', 'TypeScript', 'Vite']"
+          v-for="project in projectsData"
+          :key="project.id"
+          :thumbnail="project.thumbnail"
+          :description="$t(project.description)"
+          :name="project.name"
+          :tech-stack="project.techStack"
         />
       </div>
     </div>
@@ -55,6 +57,7 @@
     .wrapper {
       max-width: 1024px;
       margin: 0 auto;
+
       .header {
         display: flex;
         justify-content: space-between;
@@ -69,6 +72,7 @@
           line-height: normal;
           color: $secondary;
           transition: all 30ms linear;
+
           span {
             font-family: "Fira Code", monospace;
             font-size: 1.6rem;
@@ -77,6 +81,7 @@
             line-height: normal;
             color: $secondary;
           }
+
           &:hover {
             transform: translateX(-4px);
           }
@@ -86,11 +91,12 @@
       .content {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         flex-wrap: wrap;
         width: 100%;
       }
     }
+
     .left {
       position: absolute;
       left: -30px;

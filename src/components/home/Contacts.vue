@@ -21,7 +21,7 @@
 </script>
 
 <template>
-  <section class="contacts">
+  <section id="contacts" class="contacts">
     <div class="wrapper">
       <div class="heading">
         <heading :title="$t('home.contacts.heading')" size="large" />

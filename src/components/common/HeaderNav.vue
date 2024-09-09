@@ -4,18 +4,30 @@
       <h1>VAWNTAN</h1>
     </router-link>
     <nav>
-      <router-link to="/" exact-active-class="active">
+      <!--      <router-link to="#" exact-active-class="active">-->
+      <!--        <heading :title="$t('menu.home')" size="medium" />-->
+      <!--      </router-link>-->
+      <!--      <router-link to="#projects" exact-active-class="active">-->
+      <!--        <heading :title="$t('menu.works')" size="medium" />-->
+      <!--      </router-link>-->
+      <!--      <router-link to="#about-me" exact-active-class="active">-->
+      <!--        <heading :title="$t('menu.about-me')" size="medium" />-->
+      <!--      </router-link>-->
+      <!--      <router-link to="#contacts" exact-active-class="active">-->
+      <!--        <heading :title="$t('menu.contacts')" size="medium" />-->
+      <!--      </router-link> -->
+      <a href="#">
         <heading :title="$t('menu.home')" size="medium" />
-      </router-link>
-      <router-link to="/works" exact-active-class="active">
+      </a>
+      <a href="#projects">
         <heading :title="$t('menu.works')" size="medium" />
-      </router-link>
-      <router-link to="/about" exact-active-class="active">
+      </a>
+      <a href="#about-me">
         <heading :title="$t('menu.about-me')" size="medium" />
-      </router-link>
-      <router-link to="/contacts" exact-active-class="active">
+      </a>
+      <a href="#contacts">
         <heading :title="$t('menu.contacts')" size="medium" />
-      </router-link>
+      </a>
       <dropdown :items="['EN', 'VN']" @select="selectLanguage" />
     </nav>
   </header>
@@ -24,6 +36,7 @@
   import Heading from "@/components/common/Heading.vue";
   import Dropdown from "@/components/common/Dropdown.vue";
   import { useI18n } from "vue-i18n";
+
   const { locale } = useI18n();
   const selectLanguage = (lang: string) => {
     locale.value = lang;
@@ -55,7 +68,7 @@
       text-decoration: none;
       border-radius: 5px;
       font-weight: bold;
-      opacity: 0.6;
+      //opacity: 0.6;
       cursor: pointer;
 
       &:hover {

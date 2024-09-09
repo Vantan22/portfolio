@@ -1,5 +1,5 @@
 <template>
-  <div :class="['heading', size]">
+  <div :class="[size]">
     <span>#</span>
     <h2>{{ title }}</h2>
   </div>
@@ -24,7 +24,7 @@
   };
 </script>
 <style lang="scss" scoped>
-  .heading {
+  div {
     display: flex;
     align-items: center;
     column-gap: 2px !important;

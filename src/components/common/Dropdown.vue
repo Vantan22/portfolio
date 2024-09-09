@@ -85,21 +85,22 @@
       position: absolute;
       bottom: -380%;
       right: 0;
+      @include gap-y(8px);
       overflow: auto;
+      padding: 8px;
       border: 1px solid rgba(255, 255, 255, 0.4);
       border-radius: 2px;
       width: 100%;
+      background: $background;
     }
 
     .list-group-item {
       @include center;
-      padding: 5px;
       margin-top: 1px;
       border-left: none;
       border-right: none;
       border-top: none;
       color: $secondary;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
       cursor: pointer;
       opacity: 1;
 

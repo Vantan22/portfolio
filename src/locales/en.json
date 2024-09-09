@@ -34,5 +34,17 @@
       "description": "I’m eager to bring my creative energy and technical skills to your next project. With strong expertise in React.js, Vue.js, HTML, CSS, and JavaScript, I excel in teamwork and innovative thinking. Let’s connect to discuss how I can contribute to your next great idea!",
       "button": "Download My CV"
     }
+  },
+  "projects": {
+    "monoly": {
+      "description": "MONOLY is a project about managing task and communication, includes three functions below: Discussion: Multi-party Communication Cross-company business communication becomes more private, more concise, and faster. eSignature: Electronic Document Signing Confidentiality is guaranteed as an agreement is shared only between interested parties. Drive: Secure File Sharing & Storage Share files with anyone without worrying about security and compliance violations. "
+    },
+
+    "sally": {
+      "description": "Sally is a Digital Transformation Assessment (DTA) tool for customers. It provides a simple survey for users and serves a simple assessment result. It also supports marketing campaigns to collect and manage customer data."
+    },
+    "simple-task": {
+      "description": "Simple Task is a lightweight and efficient task management system designed to help users organize and track their daily tasks with ease. Built using modern technologies such as React, Vite, Node.js, and MongoDB, it offers a fast and intuitive user experience. The system allows users to create, manage, and prioritize tasks, ensuring better productivity and organization. With real-time updates and a clean interface, Simple Task provides a seamless workflow for individuals and teams alike."
+    }
   }
 }
