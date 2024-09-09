@@ -1,7 +1,7 @@
 <template>
   <button @click="clickButton" :class="secondary && 'secondary'">
     <span>{{ name }}</span>
-    <div>{{ prefix }}</div>
+    <div v-if="prefix">{{ prefix }}</div>
   </button>
 </template>
 
@@ -28,7 +28,7 @@
     methods: {
       clickButton() {
         if (this.to) {
-          this.$router.push(this.to);
+          window.location.href = this.to;
         }
         this.$emit("clicked");
       }
@@ -41,7 +41,6 @@
     display: inline-flex;
     padding: 8px 16px;
     align-items: flex-start;
-    gap: 10px;
     max-width: max-content;
     color: $secondary;
     border: 1px solid $main;
@@ -62,6 +61,7 @@
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+      margin-left: 10px;
     }
 
     &:hover {

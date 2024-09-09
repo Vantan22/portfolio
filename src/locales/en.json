@@ -37,14 +37,21 @@
   },
   "projects": {
     "monoly": {
-      "description": "MONOLY is a project about managing task and communication, includes three functions below: Discussion: Multi-party Communication Cross-company business communication becomes more private, more concise, and faster. eSignature: Electronic Document Signing Confidentiality is guaranteed as an agreement is shared only between interested parties. Drive: Secure File Sharing & Storage Share files with anyone without worrying about security and compliance violations. "
+      "description": "MONOLY is a project about managing task and communication, includes three functions below: Discussion: Multi-party Communication Cross-company business communication becomes more private, more concise, and faster. eSignature: Electronic Document Signing Confidentiality is guaranteed as an agreement is shared only between interested parties. Drive: Secure File Sharing & Storage Share files with anyone without worrying about security and compliance violations. ",
+      "button": {
+        "primary": "See more"
+      }
     },
 
     "sally": {
-      "description": "Sally is a Digital Transformation Assessment (DTA) tool for customers. It provides a simple survey for users and serves a simple assessment result. It also supports marketing campaigns to collect and manage customer data."
-    },
+      "description": "Sally is a Digital Transformation Assessment (DTA) tool for customers. It provides a simple survey for users and serves a simple assessment result. It also supports marketing campaigns to collect and manage customer data.",
+      "button": {
+        "primary": "See more"
+      }},
     "simple-task": {
-      "description": "Simple Task is a lightweight and efficient task management system designed to help users organize and track their daily tasks with ease. Built using modern technologies such as React, Vite, Node.js, and MongoDB, it offers a fast and intuitive user experience. The system allows users to create, manage, and prioritize tasks, ensuring better productivity and organization. With real-time updates and a clean interface, Simple Task provides a seamless workflow for individuals and teams alike."
-    }
+      "description": "Simple Task is a lightweight and efficient task management system designed to help users organize and track their daily tasks with ease. Built using modern technologies such as React, Vite, Node.js, and MongoDB, it offers a fast and intuitive user experience. The system allows users to create, manage, and prioritize tasks, ensuring better productivity and organization. With real-time updates and a clean interface, Simple Task provides a seamless workflow for individuals and teams alike.",
+      "button": {
+        "primary": "Github"
+      }}
   }
 }

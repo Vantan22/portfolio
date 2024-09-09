@@ -1,10 +1,12 @@
 <script lang="ts">
-  import { defineComponent } from "vue";
+  import { defineComponent, getCurrentInstance } from "vue";
   import Heading from "@/components/common/Heading.vue";
   import ProjectCard from "@/components/common/ProjectCard.vue";
   import projectThumbnail from "@/assets/project_1demo.png";
+  import monolyThumbnail from "@/assets/projects/monoly.png";
+  import sallyThumbnail from "@/assets/projects/sally-project.png";
+  import simpleTaskThumbnail from "@/assets/projects/simple-task.png";
   import Space from "@/components/common/Space.vue";
-  import projectsData from "@/utils/projects-data";
 
   export default defineComponent({
     name: "projects",
@@ -12,8 +14,51 @@
     data() {
       return {
         projectThumbnail,
-        projectsData
+        projectsData: [
+          {
+            id: 1,
+            name: "Monoly",
+            description: "projects.monoly.description",
+            thumbnail: monolyThumbnail,
+            techStack: ["React.js", "Redux", "Material-UI", "Web Socket"],
+            button: [
+              {
+                name: "projects.monoly.button.primary"
+              }
+            ]
+          },
+          {
+            id: 2,
+            name: "Sally",
+            description: "projects.sally.description",
+            thumbnail: sallyThumbnail,
+            techStack: ["Java", "Spring Webflux", "MongoDB", "Vuejs"],
+            button: [
+              {
+                name: "projects.sally.button.primary"
+              }
+            ]
+          },
+          {
+            id: 2,
+            name: "Simple Task (in progress)",
+            description: "projects.simple-task.description",
+            thumbnail: simpleTaskThumbnail,
+            techStack: ["ReactJS", "NodeJS", "MongoDB", "Vite", "FireStorage", "Antd"],
+            button: [
+              {
+                name: "projects.simple-task.button.primary",
+                to: "https://github.com/Vantan22/simple-task-react",
+                prefix: "</>"
+              }
+            ]
+          }
+        ]
       };
+    },
+    setup() {
+      const { proxy } = getCurrentInstance();
+      return { proxy };
     }
   });
 </script>
@@ -39,6 +84,7 @@
           :description="$t(project.description)"
           :name="project.name"
           :tech-stack="project.techStack"
+          :button="project.button"
         />
       </div>
     </div>

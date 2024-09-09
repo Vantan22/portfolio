@@ -37,13 +37,20 @@
   },
   "projects": {
     "monoly": {
-      "description": "MONOLY là dự án về quản lý công việc và giao tiếp, bao gồm ba chức năng sau: Thảo luận: Giao tiếp đa bên Giao tiếp kinh doanh giữa các công ty trở nên riêng tư hơn, ngắn gọn hơn và nhanh hơn. Chữ ký điện tử: Ký tài liệu điện tử Bảo mật được đảm bảo vì thỏa thuận chỉ được chia sẻ giữa các bên liên quan. Drive: Chia sẻ & Lưu trữ tệp an toàn Chia sẻ tệp với bất kỳ ai mà không lo vi phạm bảo mật và tuân thủ."
+      "description": "MONOLY là dự án về quản lý công việc và giao tiếp, bao gồm ba chức năng sau: Thảo luận: Giao tiếp đa bên Giao tiếp kinh doanh giữa các công ty trở nên riêng tư hơn, ngắn gọn hơn và nhanh hơn. Chữ ký điện tử: Ký tài liệu điện tử Bảo mật được đảm bảo vì thỏa thuận chỉ được chia sẻ giữa các bên liên quan. Drive: Chia sẻ & Lưu trữ tệp an toàn Chia sẻ tệp với bất kỳ ai mà không lo vi phạm bảo mật và tuân thủ.",
+      "button": {
+        "primary": "Xem thêm"
+      }
     },
     "sally": {
-      "description": "Sally là công cụ Đánh giá Chuyển đổi Số (DTA) dành cho khách hàng. Nó cung cấp một khảo sát đơn giản cho người dùng và cung cấp kết quả đánh giá cơ bản. Ngoài ra, nó hỗ trợ các chiến dịch marketing để thu thập và quản lý dữ liệu khách hàng."
-    },
+      "description": "Sally là công cụ Đánh giá Chuyển đổi Số (DTA) dành cho khách hàng. Nó cung cấp một khảo sát đơn giản cho người dùng và cung cấp kết quả đánh giá cơ bản. Ngoài ra, nó hỗ trợ các chiến dịch marketing để thu thập và quản lý dữ liệu khách hàng.",
+      "button": {
+        "primary": "Xem thêm"
+      }},
     "simple-task": {
-      "description": "Simple Task là một hệ thống quản lý công việc nhẹ và hiệu quả, được thiết kế để giúp người dùng sắp xếp và theo dõi các công việc hàng ngày của họ một cách dễ dàng. Được xây dựng bằng các công nghệ hiện đại như React, Vite, Node.js và MongoDB, nó mang lại trải nghiệm người dùng nhanh chóng và trực quan. Hệ thống cho phép người dùng tạo, quản lý và ưu tiên các nhiệm vụ, đảm bảo tăng năng suất và tổ chức công việc tốt hơn. Với các cập nhật theo thời gian thực và giao diện gọn gàng, Simple Task mang đến quy trình làm việc liền mạch cho cả cá nhân và nhóm."
-    }
+      "description": "Simple Task là một hệ thống quản lý công việc nhẹ và hiệu quả, được thiết kế để giúp người dùng sắp xếp và theo dõi các công việc hàng ngày của họ một cách dễ dàng. Được xây dựng bằng các công nghệ hiện đại như React, Vite, Node.js và MongoDB, nó mang lại trải nghiệm người dùng nhanh chóng và trực quan. Hệ thống cho phép người dùng tạo, quản lý và ưu tiên các nhiệm vụ, đảm bảo tăng năng suất và tổ chức công việc tốt hơn. Với các cập nhật theo thời gian thực và giao diện gọn gàng, Simple Task mang đến quy trình làm việc liền mạch cho cả cá nhân và nhóm.",
+      "button": {
+        "primary": "Github"
+      }}
   }
 }

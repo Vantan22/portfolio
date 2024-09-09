@@ -20,6 +20,9 @@
       description: {
         type: String,
         required: true
+      },
+      button: {
+        type: Array
       }
     }
   });
@@ -37,8 +40,15 @@
       <span class="info__name">{{ name }}</span>
       <span class="info__description">{{ description }}</span>
       <div class="info__btn">
-        <vt-button name="View More" prefix="<~>" />
-        <vt-button name="View More" prefix="<~>" secondary />
+        <vt-button
+          v-for="(btn, index) in button"
+          :key="index"
+          :name="$t(btn.name)"
+          @clicked="btn.clicked"
+          :to="btn?.to"
+          :prefix="btn?.prefix"
+          :secondary="btn?.secondary"
+        />
       </div>
     </div>
   </div>
