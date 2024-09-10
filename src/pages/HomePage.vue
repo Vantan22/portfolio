@@ -1,8 +1,9 @@
 <template>
   <quick-info />
   <quote />
-  <projects />
   <skills />
+  <time-line />
+  <projects />
   <about-me />
   <contacts />
 </template>
@@ -14,6 +15,7 @@
   import Skills from "@/components/home/Skills.vue";
   import AboutMe from "@/components/home/AboutMe.vue";
   import Contacts from "@/components/home/Contacts.vue";
+  import TimeLine from "@/components/home/TimeLine.vue";
 </script>
 
 <style lang="scss" scoped>

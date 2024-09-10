@@ -7,26 +7,31 @@ interface ModalState {
   content: any;
 }
 
-const modalState: ModalState = reactive({
-  isVisible: false,
-  title: "",
-  content: null
-});
+const modalStates: Record<string, ModalState> = reactive({}); // Store multiple modals by name
 
 export default {
   install(app: App) {
-    // Hàm mở modal
-    const show = (title: string, content: any) => {
-      modalState.isVisible = true;
-      modalState.title = title;
-      modalState.content = content;
+    // Hàm mở modal theo tên
+    const show = (name: string, title: string, content: any) => {
+      if (!modalStates[name]) {
+        modalStates[name] = {
+          isVisible: false,
+          title: "",
+          content: null
+        };
+      }
+      modalStates[name].isVisible = true;
+      modalStates[name].title = title;
+      modalStates[name].content = content;
     };
 
-    // Hàm đóng modal
-    const hide = () => {
-      modalState.isVisible = false;
-      modalState.title = "";
-      modalState.content = null;
+    // Hàm đóng modal theo tên
+    const hide = (name: string) => {
+      if (modalStates[name]) {
+        modalStates[name].isVisible = false;
+        modalStates[name].title = "";
+        modalStates[name].content = null;
+      }
     };
 
     // Thêm phương thức `$modal` vào Vue instance
@@ -35,10 +40,13 @@ export default {
       hide
     };
 
-    // Tạo instance cho modal và gắn vào body
-    const modalApp = createApp(BaseModal, { modalState });
+    // Tạo instance cho mỗi modal và gắn vào body
     const modalDiv = document.createElement("div");
     document.body.appendChild(modalDiv);
-    modalApp.mount(modalDiv);
+
+    Object.keys(modalStates).forEach((name) => {
+      const modalApp = createApp(BaseModal, { modalState: modalStates[name] });
+      modalApp.mount(modalDiv);
+    });
   }
 };

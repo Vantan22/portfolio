@@ -14,7 +14,11 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@growthbunker/vuetimeline": "^0.1.17",
     "@vue-hero-icons/solid": "^1.7.2",
+    "ant-design-vue": "^4.0.0-rc.6",
+    "pretty-timeline": "^1.1.11",
+    "tree-like-timeline-vue3": "^1.0.0",
     "v-dropdown-menu": "^2.0.4",
     "vue": "^3.2.6",
     "vue-i18n": "^9.14.0",

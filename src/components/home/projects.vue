@@ -23,7 +23,9 @@
             techStack: ["React.js", "Redux", "Material-UI", "Web Socket"],
             button: [
               {
-                name: "projects.monoly.button.primary"
+                name: "projects.monoly.button.primary",
+                clicked: () =>
+                  this.proxy.$modal.show("BaseModal", "My Modal Title", "<p>This is the modal content!</p>")
               }
             ]
           },
