@@ -14,7 +14,7 @@
       "works": "Currently working on"
     },
     "quote": "Designing for the user first, code for the functionality next.",
-    "projects":{
+    "projects": {
       "heading": "projects",
       "button": {
         "view-more": "View all",
@@ -32,7 +32,7 @@
     "contacts": {
       "heading": "Contacts",
       "description": "I’m eager to bring my creative energy and technical skills to your next project. With strong expertise in React.js, Vue.js, HTML, CSS, and JavaScript, I excel in teamwork and innovative thinking. Let’s connect to discuss how I can contribute to your next great idea!",
-      "button": "Download My CV"
+      "button": "Resume"
     }
   },
   "projects": {
@@ -42,16 +42,23 @@
         "primary": "See more"
       }
     },
-
     "sally": {
       "description": "Sally is a Digital Transformation Assessment (DTA) tool for customers. It provides a simple survey for users and serves a simple assessment result. It also supports marketing campaigns to collect and manage customer data.",
       "button": {
         "primary": "See more"
-      }},
+      }
+    },
     "simple-task": {
       "description": "Simple Task is a lightweight and efficient task management system designed to help users organize and track their daily tasks with ease. Built using modern technologies such as React, Vite, Node.js, and MongoDB, it offers a fast and intuitive user experience. The system allows users to create, manage, and prioritize tasks, ensuring better productivity and organization. With real-time updates and a clean interface, Simple Task provides a seamless workflow for individuals and teams alike.",
       "button": {
         "primary": "Github"
-      }}
+      }
+    },
+    "passo": {
+      "description": "Passo is a marketing agency platform that offers customizable templates and on-demand design services. It provides a seamless experience for businesses looking to enhance their branding and digital presence, with flexible solutions for template purchases and design rentals"
+    },
+    "social-network": {
+      "description": "The Social Network Platform is a modern web application built using React.js and Firebase. It provides a seamless environment for users to connect, share, and interact with content in real-time. The platform supports instant messaging, media sharing, and user profile management, making social engagement easier and more personalized. Firebase ensures fast and secure data storage, authentication, and scalability, delivering a smooth experience for both casual and active users.."
+    }
   }
 }

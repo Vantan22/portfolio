@@ -32,7 +32,7 @@
     "contacts": {
       "heading": "Liên hệ",
       "description": "Tôi rất hào hứng để mang đến năng lượng sáng tạo và kỹ năng kỹ thuật của mình cho dự án tiếp theo của bạn. Với chuyên môn vững về React.js, Vue.js, HTML, CSS, và JavaScript, tôi nổi bật trong làm việc nhóm và tư duy đổi mới. Hãy liên hệ để trao đổi về cách tôi có thể đóng góp cho ý tưởng tuyệt vời tiếp theo của bạn!",
-      "button": "Download My CV"
+      "button": "Resume"
     }
   },
   "projects": {
@@ -46,11 +46,19 @@
       "description": "Sally là công cụ Đánh giá Chuyển đổi Số (DTA) dành cho khách hàng. Nó cung cấp một khảo sát đơn giản cho người dùng và cung cấp kết quả đánh giá cơ bản. Ngoài ra, nó hỗ trợ các chiến dịch marketing để thu thập và quản lý dữ liệu khách hàng.",
       "button": {
         "primary": "Xem thêm"
-      }},
+      }
+    },
     "simple-task": {
       "description": "Simple Task là một hệ thống quản lý công việc nhẹ và hiệu quả, được thiết kế để giúp người dùng sắp xếp và theo dõi các công việc hàng ngày của họ một cách dễ dàng. Được xây dựng bằng các công nghệ hiện đại như React, Vite, Node.js và MongoDB, nó mang lại trải nghiệm người dùng nhanh chóng và trực quan. Hệ thống cho phép người dùng tạo, quản lý và ưu tiên các nhiệm vụ, đảm bảo tăng năng suất và tổ chức công việc tốt hơn. Với các cập nhật theo thời gian thực và giao diện gọn gàng, Simple Task mang đến quy trình làm việc liền mạch cho cả cá nhân và nhóm.",
       "button": {
         "primary": "Github"
-      }}
+      }
+    },
+    "passo": {
+      "description": "Passo là nền tảng agency marketing cung cấp các mẫu tùy chỉnh và dịch vụ thiết kế theo yêu cầu. Nền tảng mang đến trải nghiệm linh hoạt cho các doanh nghiệp muốn nâng cao thương hiệu và hiện diện số, với giải pháp mua mẫu và thuê thiết kế."
+    },
+    "social-network": {
+      "description": "Social Network là một ứng dụng web hiện đại được xây dựng bằng React.js và Firebase. Nền tảng cung cấp môi trường kết nối, chia sẻ và tương tác nội dung theo thời gian thực một cách mượt mà. Tính năng nhắn tin tức thì, chia sẻ phương tiện và quản lý hồ sơ người dùng giúp việc tham gia xã hội trở nên dễ dàng và cá nhân hóa hơn. Firebase đảm bảo lưu trữ dữ liệu nhanh chóng và an toàn, xác thực, và khả năng mở rộng, mang đến trải nghiệm mượt mà cho cả người dùng thông thường và tích cực."
+    }
   }
 }
