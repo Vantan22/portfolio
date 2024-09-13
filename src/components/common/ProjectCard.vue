@@ -31,7 +31,7 @@
 <template>
   <div class="project-card">
     <div v-if="thumbnail" class="image">
-      <img :src="thumbnail" alt="" />
+      <img :src="thumbnail" :alt="name" />
     </div>
     <div class="tech-stack">
       <span v-for="(tech, index) in techStack" :key="index">{{ tech }}</span>

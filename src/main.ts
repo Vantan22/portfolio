@@ -9,6 +9,7 @@ import clickOutside from "@/directives/click-outside";
 import vHover from "@/directives/hover";
 import modalPlugin from "@/utils/modalPlugin";
 import i18n from "@/lib/i18n";
+import { createHead } from "@vueuse/head";
 
 import { PrettyTimeline } from "pretty-timeline";
 import "@/style/timeline.scss";

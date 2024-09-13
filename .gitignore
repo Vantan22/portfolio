@@ -8,6 +8,7 @@
 
 # dependencies
 /node_modules
+/dist
 *.local
 
 # IDEs and editors

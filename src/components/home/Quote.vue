@@ -11,10 +11,10 @@
     <div class="text">
       {{ $t("home.quote") }}
       <div class="symbol1">
-        <img src="@/assets/symbol-left.png" alt="" />
+        <img src="@/assets/symbol-left.png" alt="symbol1" />
       </div>
       <div class="symbol2">
-        <img src="@/assets/symbol-right.png" alt="" />
+        <img src="@/assets/symbol-right.png" alt="symbol2" />
       </div>
     </div>
     <div class="symbol-background"></div>

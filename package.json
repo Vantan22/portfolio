@@ -7,6 +7,7 @@
     "build": "vite build",
     "build-tsc": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
+    "deploy" : "firebase deploy",
     "format": "prettier --write ./src",
     "lint": "eslint ./src --ext .vue,.js,.ts",
     "lint-fix": "eslint --fix ./src --ext .vue,.js,.ts"

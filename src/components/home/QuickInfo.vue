@@ -20,7 +20,7 @@
       <vt-button :name="$t('home.quickInfo.button')" to="/contact" />
     </div>
     <div class="image">
-      <img src="@/assets/img-profile.png" alt="" />
+      <img src="@/assets/img-profile.png" alt="img-profile.png" />
       <div class="work">
         <div class="work__check"></div>
         <div class="work__description">{{ $t("home.quickInfo.works") }} <span>Simple Task Project</span></div>
@@ -79,11 +79,14 @@
     .image {
       position: relative;
       width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
 
       img {
         width: 100%;
         object-fit: cover;
-        margin-bottom: -3px;
       }
 
       .work {
